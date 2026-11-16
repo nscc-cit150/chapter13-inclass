@@ -1,0 +1,61 @@
+## --- Visual Studio ---
+## User-specific files (These should NEVER be committed)
+.vs/
+*.user
+*.useros
+*.suo
+*.sln.docstates
+
+## Build outputs
+[Bb]in/
+[Oo]bj/
+x64/
+x86/
+ARM/
+ARM64/
+
+## NuGet Packages
+# Ignore the packages folder if you use the old local packages style
+packages/
+# Ignore the .nuget folder
+.nuget/
+
+## Test Results
+TestResults/
+
+## Visual Studio Cache & Temp files
+*.tmp
+*.log
+*.cache
+*.kind
+
+## --- .NET / C# Specific ---
+# Azure Functions / Local Settings
+local.settings.json
+
+# Entity Framework Migrations (Optional: Some prefer to commit these, but ignore the snapshots)
+# *.snapshot
+
+## --- C++ Specific ---
+# Intermediate files
+*.aps
+*.pdb
+*.idb
+*.ipdb
+*.exp
+*.lib
+*.exe
+*.dll
+
+## --- Solution Files (KEEP THESE) ---
+# We do NOT ignore .sln or .slnx files because they are required to open the solution.
+# If you have specific temporary solution files, you can add them here.
+
+## --- OS Specific ---
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
